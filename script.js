@@ -1,19 +1,17 @@
 // Agregá tus fotos en la carpeta "fotos" y escribí sus nombres aquí.
 const photos = [
-  const recuerdos = [
-  { archivo: "foto%201.jpeg", texto: "Un momento para guardar ♡" },
-  { archivo: "foto%202.jpeg", texto: "Una sonrisa que me encanta ✨" },
-  { archivo: "foto%203.jpeg", texto: "De esos recuerdos bonitos 💗" },
-  { archivo: "foto%204.jpeg", texto: "Un recuerdo especial ❤️" },
-  { archivo: "foto%205.jpeg", texto: "Momentos que quiero guardar ♡" },
-  { archivo: "foto%206.jpeg", texto: "Vos hacés todo más bonito 💕" },
-  { archivo: "foto%207.jpeg", texto: "Otra memoria de nosotros ✨" },
-  { archivo: "foto%208.jpeg", texto: "Siempre hay algo que recordar ❤️" },
-  { archivo: "foto%209.jpeg", texto: "Y muchos momentos más..." }
+  
+const recuerdos = [
+  { archivo: "./foto%201.jpeg", texto: "Un momento para guardar ♡" },
+  { archivo: "./foto%202.jpeg", texto: "Una sonrisa que me encanta ✨" },
+  { archivo: "./foto%203.jpeg", texto: "De esos recuerdos bonitos 💗" },
+  { archivo: "./foto%204.jpeg", texto: "Un recuerdo especial ❤️" },
+  { archivo: "./foto%205.jpeg", texto: "Momentos que quiero guardar ♡" },
+  { archivo: "./foto%206.jpeg", texto: "Vos hacés todo más bonito 💕" },
+  { archivo: "./foto%207.jpeg", texto: "Otra memoria de nosotros ✨" },
+  { archivo: "./foto%208.jpeg", texto: "Siempre hay algo que recordar ❤️" },
+  { archivo: "./foto%209.jpeg", texto: "Y muchos momentos más..." }
 ];
-
-];
-
 let currentPhoto = 0;
 const photo = document.getElementById("photo");
 const caption = document.getElementById("photoCaption");
