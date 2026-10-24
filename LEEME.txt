@@ -1,0 +1,24 @@
+REGALO ROMÁNTICO PARA ANDREA ❤️
+
+ARCHIVOS
+- index.html: estructura de la página.
+- style.css: colores, tamaños, animaciones y diseño adaptable.
+- script.js: carrusel, corazones y apertura del sobre.
+- fotos/: aquí van tus fotografías.
+
+CÓMO PONER LAS FOTOS
+1. Abrí la carpeta "fotos".
+2. Copiá tus fotos dentro de esa carpeta.
+3. Poneles estos nombres exactos: foto1.jpg, foto2.jpg, foto3.jpg y foto4.jpg.
+4. Si son PNG, cambiá también el nombre en script.js; por ejemplo, "fotos/foto1.png".
+5. Para añadir más fotos, agregá otra línea al arreglo "photos" en script.js.
+
+CÓMO ABRIR
+Doble clic en index.html y se abrirá en el navegador. No necesita instalar nada.
+
+PERSONALIZAR
+- Cambiá el nombre "Andrea" en index.html.
+- Editá los párrafos de la carta dentro de <article class="letter-content">.
+- Cambiá las frases debajo de cada foto en el arreglo "photos" de script.js.
+
+NOTA: los nombres de las fotos deben coincidir exactamente, incluyendo la extensión (.jpg o .png).

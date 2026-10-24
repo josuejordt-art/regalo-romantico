@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8e8e5">
+  <title>Para Andrea ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="intro" id="inicio">
+      <p class="eyebrow">UN DETALLITO HECHO CON AMOR</p>
+      <h1>Para vos, <span>MI AMOR </span> ❤️</h1>
+      <p class="intro-text">Porque este dia no es cualquier dia  .</p>
+      <button class="primary-btn" id="startBtn">Abrí tu regalito <span>♡</span></button>
+      <div class="scroll-note">Hecho especialmente para vos ↓</div>
+    </section>
+
+    <section class="memories section-hidden" id="recuerdos">
+      <p class="eyebrow">NUESTROS MOMENTOS</p>
+      <h2>Un pedacito de <em>nosotros</em></h2>
+      <p class="section-description">Cada foto guarda algo bonito que me gusta recordar.</p>
+
+      <div class="polaroid-area">
+        <button class="carousel-arrow" id="prevBtn" aria-label="Foto anterior">‹</button>
+        <article class="polaroid">
+          <div class="photo-frame">
+            <img id="photo" src="fotos/foto 1.jpeg" alt="Un recuerdo especial">
+            <div class="photo-placeholder" id="photoPlaceholder">
+              <span>♡</span>
+              <p>Tu foto va aquí</p>
+              <small>Agregá tus imágenes en la carpeta <b>fotos</b></small>
+            </div>
+          </div>
+          <div class="photo-caption" id="photoCaption">Un recuerdo bonito</div>
+          <div class="little-flags" aria-hidden="true">✦　♡　✦</div>
+        </article>
+        <button class="carousel-arrow" id="nextBtn" aria-label="Foto siguiente">›</button>
+      </div>
+      <div class="dots" id="dots" aria-label="Elegir foto"></div>
+      <p class="hint">Tocá las flechas para ver más recuerdos ✨</p>
+    </section>
+
+    <section class="letter-section section-hidden" id="carta">
+      <p class="eyebrow">UNA CARTITA PARA VOS</p>
+      <h2>Hay algo que quiero decirte…</h2>
+      <p class="section-description">El sobre guarda unas palabras que salen de mi corazón.</p>
+
+      <button class="envelope-button" id="envelopeBtn" aria-label="Abrir la carta">
+        <div class="envelope" id="envelope">
+          <div class="letter-paper">
+            <span class="letter-heart">♥</span>
+            <span>Una carta para vos</span>
+          </div>
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="wax-seal">♥</div>
+        </div>
+        <span class="envelope-instruction" id="envelopeInstruction">Tocá el sello para abrir</span>
+      </button>
+
+      <article class="letter-content" id="letterContent" aria-hidden="true">
+        <div class="letter-top">♥　PARA MI PERSONA ESPECIAL　♥</div>
+        <h3>Mi querida Andrea</h3>
+        <p>Quería hacerte este pequeño detalle porque sí, porque me nació hacerlo para vos. A veces siento que las palabras no alcanzan para explicar lo mucho que significás para mí, pero aun así quiero recordarte lo especial que sos.</p>
+        <p>Gracias por tus sonrisas, por los momentos bonitos y por hacer que tantas cosas simples se sientan diferentes. Me gusta tenerte en mi vida y seguir creando recuerdos con vos.</p>
+        <p>Deseo que nunca te falten motivos para sonreír, sueños por cumplir y personas que te recuerden lo valiosa que sos. Y ojalá yo pueda seguir acompañándote en muchos de esos momentos.</p>
+        <p class="letter-ending">Con muchísimo cariño, para vos. ❤️</p>
+        <div class="signature">Alguien que te quiere mucho Tu Amor </div>
+      </article>
+    </section>
+
+    <footer>Hecho con amor, solo para vos ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
