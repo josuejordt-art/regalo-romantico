@@ -2,16 +2,17 @@
 const photos = [
   
 const recuerdos = [
-  { archivo: "./foto%201.jpeg", texto: "Un momento para guardar ♡" },
-  { archivo: "./foto%202.jpeg", texto: "Una sonrisa que me encanta ✨" },
-  { archivo: "./foto%203.jpeg", texto: "De esos recuerdos bonitos 💗" },
-  { archivo: "./foto%204.jpeg", texto: "Un recuerdo especial ❤️" },
-  { archivo: "./foto%205.jpeg", texto: "Momentos que quiero guardar ♡" },
-  { archivo: "./foto%206.jpeg", texto: "Vos hacés todo más bonito 💕" },
-  { archivo: "./foto%207.jpeg", texto: "Otra memoria de nosotros ✨" },
-  { archivo: "./foto%208.jpeg", texto: "Siempre hay algo que recordar ❤️" },
-  { archivo: "./foto%209.jpeg", texto: "Y muchos momentos más..." }
+   { src: "fotos/foto 1.jpeg", caption: "Un recuerdo bonito ❤️" },
+  { src: "fotos/foto 2.jpeg", caption: "De esos momentos que guardo ✨" },
+  { src: "fotos/foto 3.jpeg", caption: "Mi parte favorita: compartir con vos 💗" },
+  { src: "fotos/foto 4.jpeg", caption: "Y que vengan muchos más recuerdos 🌷" },
+  { src: "fotos/foto 5.jpeg", caption: "Haces que cualquier día común se vuelva especial ✨" },
+  { src: "fotos/foto 6.jpeg", caption: "Un recuerdo que me saca una sonrisa cada vez que lo veo 😊" },
+  { src: "fotos/foto 7.jpeg", caption: "Mi lugar favorito en el mundo siempre es a tu lado 📍❤️" },
+  { src: "fotos/foto 8.jpeg", caption: "Seguimos creando nuestra historia favorita 🌷" }
+
 ];
+
 let currentPhoto = 0;
 const photo = document.getElementById("photo");
 const caption = document.getElementById("photoCaption");
